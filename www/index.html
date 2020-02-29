@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Customize this policy to fit your own app's needs. For more guidance, see:
+https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+Some notes:
+* gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+* https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+* Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+* Enable inline JS: add 'unsafe-inline' to default-src
+-->
+<meta http-equiv="Content-Security-Policy"
+content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+<!-- Required meta tags-->
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+
+<!-- Your app title -->
+<title>আল্লাহর ৯৯ টি গুণবাচক নাম</title>
+
+<!-- 
+This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
+http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
+-->
+
+<link rel="stylesheet"
+href="lib/framework7/css/framework7.material.min.css">
+<link rel="stylesheet" href="lib/framework7/css/framework7.material.colors.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="page theme-green">
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-reveal">
+  <div class="content-block">
+    <div class="card">
+      <div class="card-header"> <i>অ্যাপটি তৈরি করেছেনঃ</i> </div>
+      <div class="card-content">
+        <div class="card-content-inner">
+          <p>মোঃ সফিকুল ইসলাম</p>
+          <p>shafiq2410@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Top Navbar-->
+    <div class="navbar">
+      <div class="navbar-inner"> 
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+        <div class="center sliding">আল্লাহর ৯৯ টি গুণবাচক নাম</div>
+        <div class="right"> 
+          <!--
+Right link contains only icon - additional "icon-only" class
+Additional "open-panel" class tells app to open panel when we click on this link
+--> 
+          <a href="#" class="link icon-only open-panel"><i
+class="icon icon-bars"></i></a> </div>
+      </div>
+    </div>
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="index" class="page"> 
+        <!-- Scrollable page content -->
+        <div class="page-content"> <br>
+          <div class="content-block">
+            <div class="card">
+              <div class="card-header"><a href="#">বিসমিল্লাহির রাহমানির রাহিম</a></div>
+              <div class="card-content">
+                <div class="card-content-inner">
+                  <blockquote>
+                    <p> <a href="#"> &quot; আল্লাহ বলে আহবান কর কিংবা রহমান বলে, যে নামেই আহবান কর না কেন, সব সুন্দর নাম তাঁরই। &mdash; সূরা বনী-ইসরাঈল &mdash; আয়াত ১১০। &quot;</a> </p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h2> <a href="#">আল্লাহর ৯৯ টি গুণবাচক নাম</a> </h2>
+              </div>
+              <div class="data-table">
+                <table style="color:#4caf50;">
+                  <thead>
+                    <tr>
+                      <th style="font-size:24px;font-weight:bold;color:#4caf50;" class="label-cell"><p>নাম</p></th>
+                      <th style="font-size:24px;font-weight:bold;color:#4caf50;" class="label-cell"><p>অর্থ</p></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="label-cell"><p>১) ইয়া আল্লাহু</p></td>
+                      <td class="label-cell"><p>হে আল্লাহ</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২) ইয়া রাহমানু</p></td>
+                      <td class="label-cell"><p>হে পরম করুনাময়</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩) ইয়া রাহিমু</p></td>
+                      <td class="label-cell"><p>হে পরম দয়ালু</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪) ইয়া মালিকু</p></td>
+                      <td class="label-cell"><p>হে প্রকৃত বাদশাহ, সর্বকর্তৃত্বময়</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫) ইয়া কুদ্দুসু</p></td>
+                      <td class="label-cell"><p> হে পবিত্র, নিষ্কলুষ, অতি পবিত্র </p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬) ইয়া সালামু</p></td>
+                      <td class="label-cell"><p>হে শান্তিদাতা, নিরাপত্তা-দানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭) ইয়া মুউমিনু</p></td>
+                      <td class="label-cell"><p>হে নিরাপত্তাদাতা, ঈমান দানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮) ইয়া মুহাইমিনু</p></td>
+                      <td class="label-cell"><p>হে পরিপূর্ন রক্ষণাবেক্ষণকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯) ইয়া আযিযু</p></td>
+                      <td class="label-cell"><p>হে মহাপ্রভাবশালী, পরাক্রমশালী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১০)ইয়া জাব্বারু</p></td>
+                      <td class="label-cell"><p>হে মহাক্ষমতাশালী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১১) ইয়া মুতাকাব্বিরু</p></td>
+                      <td class="label-cell"><p>হে গৌরবান্বিত,নিরঙ্কুশ শ্রেষ্ঠত্বের অধিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১২) ইয়া খালিকু</p></td>
+                      <td class="label-cell"><p>হে সৃষ্টিকর্তা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৩) ইয়া বারিউ</p></td>
+                      <td class="label-cell"><p>হে উদ্ভাবনকর্তা, সঠিকভাবে সৃষ্টিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৪) ইয়া মুসাউইরু</p></td>
+                      <td class="label-cell"><p>হে আকৃতিদানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৫) ইয়া হাকিমু</p></td>
+                      <td class="label-cell"><p>হে প্রজ্ঞার অধিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৬) ইয়া মুহঈ</p></td>
+                      <td class="label-cell"><p>হে জীবনদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৭) ইয়া মুমিতু</p></td>
+                      <td class="label-cell"><p>হে মৃত্যুদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৮) ইয়া কাদিরু</p></td>
+                      <td class="label-cell"><p>হে সামর্থবান, সর্বশক্তিমান</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>১৯) ইয়া আউয়ালু</p></td>
+                      <td class="label-cell"><p>হে সর্বপ্রথম</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২০) ইয়া আখিরু</p></td>
+                      <td class="label-cell"><p>হে সর্বশেষ</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২১) ইয়া যাহিরু</p></td>
+                      <td class="label-cell"><p>হে প্রকাশমান</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২২) ইয়া বাতিনু</p></td>
+                      <td class="label-cell"><p>হে অপ্রকাশমান</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৩) ইয়া আলিমু</p></td>
+                      <td class="label-cell"><p>হে সর্বজ্ঞ</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৪) ইয়া হাইয়ু</p></td>
+                      <td class="label-cell"><p>হে চিরঞ্জীব</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৫) ইয়া কাইয়ুমু</p></td>
+                      <td class="label-cell"><p>হে চিরস্থায়ী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৬) ইয়া আলিয়ু</p></td>
+                      <td class="label-cell"><p>হে অত্যুচ্চ</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৭) ইয়া আযিমু</p></td>
+                      <td class="label-cell"><p>হে অতিমহান, সর্বোচ্চ-মর্যাদাশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৮) ইয়া মালিকালমুলকি</p></td>
+                      <td class="label-cell"><p>হে সার্বভৌমত্তের মালিক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>২৯) ইয়া মুইযযু</p></td>
+                      <td class="label-cell"><p>হে সম্মানদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩০) ইয়া মুযিল্লু</p></td>
+                      <td class="label-cell"><p>হে অপমানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩১) ইয়া ওয়াহিদু</p></td>
+                      <td class="label-cell"><p>হে এক-অদ্বিতীয়</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩২) ইয়া কাহহারু</p></td>
+                      <td class="label-cell"><p>হে শাস্তিদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৩) ইয়া গাফফারু</p></td>
+                      <td class="label-cell"><p>হে ক্ষমাকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৪) ইয়া ওয়হহাবু</p></td>
+                      <td class="label-cell"><p>হে মাহান দাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৫) ইয়া জামিউ</p></td>
+                      <td class="label-cell"><p>হে মহান একত্রকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৬) ইয়া রাযযাক্বু</p></td>
+                      <td class="label-cell"><p>হে রিযিকদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৭) ইয়া মাতিনু</p></td>
+                      <td class="label-cell"><p>হে অটল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৮) ইয়া ফাত্তাহু</p></td>
+                      <td class="label-cell"><p>হে বিজয়দানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৩৯) ইয়া ক্বাবিদ্বু</p></td>
+                      <td class="label-cell"><p>হে সংকোচনকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪০) ইয়া বাসিতু</p></td>
+                      <td class="label-cell"><p>হে প্রশস্ততাকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪১) ইয়া রাফিউ</p></td>
+                      <td class="label-cell"><p>হে সমুন্নতকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪২) ইয়া খ্বাবিরু</p></td>
+                      <td class="label-cell"><p>হে সর্বাজ্ঞ</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৩) ইয়া হাকামু</p></td>
+                      <td class="label-cell"><p>হে হুকুমদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৪) ইয়া সামিয়ু</p></td>
+                      <td class="label-cell"><p>হে সর্বশ্রোতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৫) ইয়া বাসিরু</p></td>
+                      <td class="label-cell"><p>হে সর্বদ্রষ্টা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৬) ইয়া আদলু</p></td>
+                      <td class="label-cell"><p>হে ন্যায় বিচারক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৭) ইয়া লাতিফু</p></td>
+                      <td class="label-cell"><p>হে সুক্ষদর্শী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৮) ইয়া ক্বাবিয়ু</p></td>
+                      <td class="label-cell"><p>হে শক্তির আধার</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৪৯) ইয়া হালিমু</p></td>
+                      <td class="label-cell"><p>হে অত্যন্ত ধৈর্যশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫০) ইয়া গাফুরু</p></td>
+                      <td class="label-cell"><p>হে পরম ক্ষমাশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫১) ইয়া শাকুরু</p></td>
+                      <td class="label-cell"><p>হে কৃতজ্ঞতা পছন্দকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫২) ইয়া কাবিরু</p></td>
+                      <td class="label-cell"><p>হে অতিবড়</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৩) ইয়া মুতাআলি</p></td>
+                      <td class="label-cell"><p>হে সর্বচ্চ</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৪) ইয়া গানিয়ু</p></td>
+                      <td class="label-cell"><p>হে অফুরন্ত সম্পদশালী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৫) ইয়া হামিদু</p></td>
+                      <td class="label-cell"><p>হে প্রশংসিত</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৬) ইয়া হাফিযু</p></td>
+                      <td class="label-cell"><p>হে মহারক্ষক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৭) ইয়া মুক্বিতু</p></td>
+                      <td class="label-cell"><p>হে আহার্যদাতা</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৮) ইয়া হাসিবু</p></td>
+                      <td class="label-cell"><p>হে হিসাব গ্রহনকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৫৯) ইয়া ওয়াজিদু</p></td>
+                      <td class="label-cell"><p>হে অস্তিত্ত দানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬০) ইয়া হাক্বু</p></td>
+                      <td class="label-cell"><p>হে চিরসত্য</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬১) ইয়া বাইসু</p></td>
+                      <td class="label-cell"><p>হে পুনরুত্থানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬২) ইয়া জালিলু</p></td>
+                      <td class="label-cell"><p>হে অত্যন্ত মর্যাদাশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬৩) ইয়া কারিমু</p></td>
+                      <td class="label-cell"><p>হে অনুগ্রহকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬৪) ইয়া মুবদিয়ু</p></td>
+                      <td class="label-cell"><p>হে আদি সৃষ্টিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬৫) ইয়া মুয়িদু</p></td>
+                      <td class="label-cell"><p>হে পুনঃসৃষ্টিকারী</p></td>
+                    </tr>
+					<tr>
+                      <td class="label-cell"><p>৬৬) ইয়া রাব্বু</p></td>
+                      <td class="label-cell"><p>হে প্রতিপালক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬৭) ইয়া ওয়াদুদু</p></td>
+                      <td class="label-cell"><p>হে প্রেমদানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬৮) ইয়া মাজিদু</p></td>
+                      <td class="label-cell"><p>হে মহা সম্মানিত</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৬৯) ইয়া শাহিদু</p></td>
+                      <td class="label-cell"><p>হে প্রত্যক্ষকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭০) ইয়া রাক্বিবু</p></td>
+                      <td class="label-cell"><p>হে নিরীক্ষনকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭১) ইয়া মুজিবু</p></td>
+                      <td class="label-cell"><p> হে প্রত্যুত্তরদাতা, কবুলকারী </p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭২) ইয়া ওয়াসিউ</p></td>
+                      <td class="label-cell"><p>হে অসীম</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭৩) ইয়া ওয়াকিলু</p></td>
+                      <td class="label-cell"><p>হে মহান কার্যনির্বাহী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p> ৭৪) ইয়া ওয়া&rsquo;লি </p></td>
+                      <td class="label-cell"><p>হে তত্ত্বাবধায়ক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭৫) ইয়া ওয়ালিইয়ু</p></td>
+                      <td class="label-cell"><p>হে প্রকৃত বন্ধু</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭৬) ইয়া মুহস্বি</p></td>
+                      <td class="label-cell"><p>হে সবকিছুবেষ্টনকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭৭) ইয়া স্বমাদ</p></td>
+                      <td class="label-cell"><p>হে অমুখাপেক্ষী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭৮) ইয়া মুক্বতাদির</p></td>
+                      <td class="label-cell"><p>হে ক্ষমতাশালী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৭৯) ইয়া মুয়াখ্বখ্বিরু</p></td>
+                      <td class="label-cell"><p>হে পশ্চাৎবর্তিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮০) ইয়া মুকাদ্দিমু</p></td>
+                      <td class="label-cell"><p>হে অগ্রবর্তিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮১) ইয়া বাররু</p></td>
+                      <td class="label-cell"><p>হে পরম উপকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮২) ইয়া তাওয়াবু</p></td>
+                      <td class="label-cell"><p>হে তওবা কবুলকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৩) ইয়া মুনতাক্বিমু</p></td>
+                      <td class="label-cell"><p>হে শাস্তি বিধানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৪) ইয়া আফুউয়ু</p></td>
+                      <td class="label-cell"><p>হে অতি ক্ষমাশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৫) ইয়া রাউফু</p></td>
+                      <td class="label-cell"><p>হে অতি স্নেহশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৬) ইয়া বাক্বিয়ু</p></td>
+                      <td class="label-cell"><p>হে চিরন্তন</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৭) ইয়া যুলজালালি-ওয়াল-ইকরাম</p></td>
+                      <td class="label-cell"><p>হে প্রতাপশালী গৌরব ও মহত্ত্বের অধিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৮) ইয়া মুক্বসিতু</p></td>
+                      <td class="label-cell"><p>হে ন্যায় বিচারক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৮৯) ইয়া দ্বাররু</p></td>
+                      <td class="label-cell"><p>হে ক্ষতিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯০) ইয়া নাফিউ</p></td>
+                      <td class="label-cell"><p>হে উপকার করার মালিক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯১) ইয়া হাদিয়ু</p></td>
+                      <td class="label-cell"><p>হে পথ প্রদর্শক</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯২) ইয়া বাদিয়ু</p></td>
+                      <td class="label-cell"><p>হে বিনা নমুনাতে সৃষ্টিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৩) ইয়া ওয়ারিস্বু</p></td>
+                      <td class="label-cell"><p>হে সকলের উত্তরাধিকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৪) ইয়া রাশিদু</p></td>
+                      <td class="label-cell"><p>হে সঠিক পথ প্রদর্শনকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৫) ইয়া সাবুরু</p></td>
+                      <td class="label-cell"><p>হে অতি ধৈর্যশীল</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৬) ইয়া খ্বাফিদ্বু</p></td>
+                      <td class="label-cell"><p>হে অবনতকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৭) ইয়া মুগনিউ</p></td>
+                      <td class="label-cell"><p>হে সম্পদদানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৮) ইয়া মানিউ</p></td>
+                      <td class="label-cell"><p>হে বাধাদানকারী</p></td>
+                    </tr>
+                    <tr>
+                      <td class="label-cell"><p>৯৯) ইয়া নূরু</p></td>
+                      <td class="label-cell"><p>হে জ্যোতি</p></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+              </div>
+            </div>
+            
+            <!-- Link to another page --> 
+            <!--  	<a href="about.html">About app</a> --> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom Toolbar-->
+    <div class="toolbar">
+      <div class="toolbar-inner"> 
+        <!-- Toolbar links --> 
+        
+        <!--  
+<a href="#" class="link">Link 1</a> <a href="#" class="link">Link
+2</a>
+--> 
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/cordova.js"></script> 
+<script type="text/javascript"
+src="lib/framework7/js/framework7.min.js"></script> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>
